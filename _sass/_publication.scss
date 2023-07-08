@@ -1,0 +1,11 @@
+.publication__item-teaser {
+    border-radius: $border-radius;
+    overflow: hidden;
+    img {
+        width: 100%;
+    }
+}
+
+.publication__item-teaser:hover {
+    box-shadow: 0 0 10px rgba(#000, 0.25);
+}
