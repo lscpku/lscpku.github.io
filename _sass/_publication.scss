@@ -6,6 +6,6 @@
     }
 }
 
-.publication__item-teaser:hover {
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+.publication__item {
+    width: min(50em, 100%);
 }
