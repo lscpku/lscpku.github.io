@@ -3,11 +3,7 @@
 {% if post.teaser %}
     <div class="publication__item-teaser">
     <img src=
-        {% if post.teaser contains "://" %}
-        "{{ post.teaser }}"
-        {% else %}
         "{{ post.teaser | prepend: "/images/" | prepend: base_path }}"
-        {% endif %}
         alt="">
     </div>
 {% endif %}
