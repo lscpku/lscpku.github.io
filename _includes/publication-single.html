@@ -1,12 +1,16 @@
 {% include base_path %}
 
-<!-- {% if post.teaser %}
+
+<div class="{{ include.type | default: "list" }}__item">
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+{% if post.teaser %}
     <div class="publication__item-teaser">
     <img src=
         "{{ post.teaser | prepend: "/images/" | prepend: base_path }}"
         alt="">
     </div>
-{% endif %} -->
+{% endif %}
 
 <p>
 {% if post.venue %}
@@ -25,5 +29,5 @@
     <p><a href="{{ post.paperurl }}">PDF</a></p>
 {% endif %}
 
-  </article>
+    </article>
 </div>

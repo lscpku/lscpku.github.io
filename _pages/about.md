@@ -23,3 +23,7 @@ Publications
 {% for post in site.publications reversed %}
   {% include publication-single.html %}
 {% endfor %}
+
+{% for post in site.publications reversed %}
+  - {% if post.venue %}({{ post.venue }}){% endif %} post.title
+{% endfor %}
