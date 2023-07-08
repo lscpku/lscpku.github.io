@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a PhD student at [LANCO](https://lancopku.github.io), Peking University. Advised by Prof. [Xu Sun](https://xusun.org)
+Hi! I am a PhD student at [LANCO](https://lancopku.github.io), School of Computer Science, Peking University. Advised by Prof. [Xu Sun](https://xusun.org)
 
 Education
 ======
