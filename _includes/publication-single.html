@@ -1,6 +1,12 @@
 {% include base_path %}
 
 <style type="text/css">
+    .publication__item {
+        width: 90%;
+        border-width: 3px;
+        border-color: gray;
+    }
+
     a.text_link:link, a.text_link:visited
     {
         color: #3366ff;
@@ -25,6 +31,7 @@
     }
 </style>
 
+<li>
 <div class="{{ include.type | default: "list" }}__item">
     <article class="publication__item" itemscope itemtype="http://schema.org/CreativeWork">
 
@@ -42,6 +49,8 @@
         {% endif %}
         {{ post.title }}
         </p>
+
+        <p>{{ post.authors }}</p>
 
         {% if post.paperurl or post.dataurl or post.codeurl or post.projecturl %}
             <p>
@@ -62,3 +71,4 @@
 
     </article>
 </div>
+</li>
