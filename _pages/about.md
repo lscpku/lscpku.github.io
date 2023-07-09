@@ -20,9 +20,11 @@ Publications
 ======
 {% include base_path %}
 
+<ul>
 {% for post in site.publications reversed %}
   {% include publication-single.html %}
 {% endfor %}
+</ul>
 
 <!-- {% for post in site.publications reversed %}
   - {% if post.venue %}({{ post.venue }}){% endif %} {{ post.title }}

@@ -2,9 +2,16 @@
 
 <style type="text/css">
     .publication__item {
-        width: 90%;
-        border-width: 3px;
-        border-color: gray;
+        margin-bottom: 1.5rem;
+    }
+    
+    .title {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .venue {
+    	font-style: italic
     }
 
     a.text_link:link, a.text_link:visited
@@ -43,14 +50,13 @@
             </div>
         {% endif %} -->
 
-        <p>
-        {% if post.venue %}
-            ({{ post.venue }})
-        {% endif %}
-        {{ post.title }}
-        </p>
+        <p class="title">{{ post.title }}</p>
 
-        <p>{{ post.authors }}</p>
+        <p class="authors">{{ post.authors }}</p>
+
+        {% if post.venue %}
+            <p class="venue">{{ post.venue }}
+        {% endif %}
 
         {% if post.paperurl or post.dataurl or post.codeurl or post.projecturl %}
             <p>
