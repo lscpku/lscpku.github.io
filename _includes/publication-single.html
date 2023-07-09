@@ -19,14 +19,21 @@
         {{ post.title }}
         </p>
 
-        <p>
-            {% for author in site.data.authors %}
-                {{ author.name }}
-            {% endfor %}
-        </p>
-
-        {% if post.paperurl %}
-            <p><a href="{{ post.paperurl }}">PDF</a></p>
+        {% if post.paperurl or post.dataurl or post.codeurl or post.projecturl %}
+            <p>
+            {% if post.paperurl %}
+                <a href="{{ post.paperurl }}" class="text_link">PDF</a></p>
+            {% endif %}
+            {% if post.dataurl %}
+                <a href="{{ post.dataurl }}" class="text_link">Dataset</a>
+            {% endif %}
+            {% if post.codeurl %}
+                <a href="{{ post.codeurl }}" class="text_link">Code</a>
+            {% endif %}
+            {% if post.projecturl %}
+                <a href="{{ post.projecturl }}" class="text_link">Project</a>
+            {% endif %}
+            </p>
         {% endif %}
 
     </article>

@@ -6,6 +6,24 @@
     }
 }
 
-// .publication__item {
-//     width: min(50em, 100%);
-// }
+a.text_link:link, a.text_link:visited
+{
+	color: #3366ff;
+    border-color: #3366ff;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px 5px;
+}
+a.text_link:hover, a.text_link:active
+{
+	color: #ffffff;
+    background-color: #3366ff;
+    border-color: #3366ff;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px 5px;
+}
