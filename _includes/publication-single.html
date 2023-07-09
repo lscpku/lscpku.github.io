@@ -56,12 +56,12 @@
             </div>
         {% endif %} -->
 
-        <p class="title">{{ post.title }}</p>
+        <div class="title">{{ post.title }}</div>
 
-        <p class="authors">{{ post.authors }}</p>
+        <div class="authors">{{ post.authors }}</div>
 
         {% if post.venue %}
-            <p class="venue">{{ post.venue }}</p>
+            <div class="venue">{{ post.venue }}</div>
         {% endif %}
 
         {% if post.paperurl or post.dataurl or post.codeurl or post.projecturl %}
