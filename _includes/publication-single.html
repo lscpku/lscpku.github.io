@@ -8,10 +8,16 @@
     .title {
         font-weight: bold;
         font-size: 18px;
+        padding: 25px 0px 0px 0px;
+    }
+    
+    .authors {
+    	padding: 5px;
     }
     
     .venue {
-    	font-style: italic
+    	font-style: italic;
+        padding: 5px 5px 15px 5px;
     }
 
     a.text_link:link, a.text_link:visited
@@ -59,7 +65,7 @@
         {% endif %}
 
         {% if post.paperurl or post.dataurl or post.codeurl or post.projecturl %}
-            <p>
+            <div>
             {% if post.paperurl %}
                 <a href="{{ post.paperurl }}" class="text_link">PDF</a>
             {% endif %}
@@ -72,7 +78,7 @@
             {% if post.projecturl %}
                 <a href="{{ post.projecturl }}" class="text_link">Project</a>
             {% endif %}
-            </p>
+            </div>
         {% endif %}
 
     </article>
