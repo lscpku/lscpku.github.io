@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a PhD student at [LANCO](https://lancopku.github.io), School of Computer Science, Peking University. Advised by Prof. [Xu Sun](https://xusun.org)
+Hi! I am a PhD student at [LANCO](https://lancopku.github.io), Institute of Computational Linguistics (National Key Laboratory for Multimedia Information Processing), School of Computer Science, Peking University. My advisor is Prof. [Xu Sun](https://xusun.org). My research interests lie in natural language processing and multimodal machine learning. 
 
 Education
 ======
 - PhD Student in Computer Science, Peking University, 2021.9 - Present
-- BSc in Computer Science, Peking University, 2017.9 - 2021.6
+- BSc in Computer Science, Peking University, 2017.9 - 2021.7
 
 
 Publications

@@ -1,0 +1,9 @@
+---
+title: "CAPT: Contrastive Pre-Training for Learning Denoised Sequence Representations"
+collection: publications
+permalink: /publication/capt
+excerpt: 'Pre-trained self-supervised models such as BERT have achieved striking success in learning sequence representations, especially for natural language processing. These models typically corrupt the given sequences with certain types of noise, such as masking, shuffling, or substitution, and then try to recover the original input. However, such pre-training approaches are prone to learning representations that are covariant with the noise, leading to the discrepancy between the pre-training and fine-tuning stage. To remedy this, we present ContrAstive Pre-Training (CAPT) to learn noise invariant sequence representations. The proposed CAPT encourages the consistency between representations of the original sequence and its corrupted version via unsupervised instance-wise training signals. In this way, it not only alleviates the pretrain-finetune discrepancy induced by the noise of pre-training, but also aids the pre-trained model in better capturing global semantics of the input via more effective sentence-level supervision. Different from most prior work that focuses on a particular modality, comprehensive empirical evidence on 11 natural language understanding and cross-modal tasks illustrates that CAPT is applicable for both language and vision-language tasks, and obtains surprisingly consistent improvement, including 0.6\% absolute gain on GLUE benchmarks and 0.8\% absolute increment on NLVR^2.'
+venue: 'arXiv preprint'
+paperurl: 'https://arxiv.org/abs/2010.06351'
+authors: 'Fuli Luo, Pengcheng Yang, <b>Shicheng Li</b>, Xuancheng Ren, Xu Sun'
+---
