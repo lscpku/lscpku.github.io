@@ -1,0 +1,8 @@
+---
+title: "Modal-adaptive Knowledge-enhanced Graph-based Financial Prediction from Monetary Policy Conference Calls with LLM"
+collection: publications
+permalink: /publication/manager
+excerpt: "Financial prediction from Monetary Policy Conference (MPC) calls is a new yet challenging task, which targets at predicting the price movement and volatility for specific financial assets by analyzing multimodal information including text, video, and audio. Although the existing work has achieved great success using cross-modal transformer blocks, it overlooks the potential external financial knowledge, the varying contributions of different modalities to financial prediction, as well as the innate relations among different financial assets. To tackle these limitations, we propose a novel Modal-Adaptive kNowledge-enhAnced Graph-basEd financial pRediction scheme, named MANAGER. Specifically, MANAGER resorts to FinDKG to obtain the external related knowledge for the input text. Meanwhile, MANAGER adopts BEiT-3 and Hidden-unit BERT (HuBERT) to extract the video and audio features, respectively. Thereafter, MANAGER introduces a novel knowledge-enhanced cross-modal graph that fully characterizes the semantic relations among text, external knowledge, video and audio, to adaptively utilize the information in different modalities, with ChatGLM2 as the backbone. Extensive experiments on a publicly available dataset Monopoly verify the superiority of our model over cutting-edge methods."
+venue: 'FinNLP-KDF-ECONLP workshop @ LREC-COLING 2024'
+authors: 'Kun Ouyang, Yi Liu, <b>Shicheng Li</b>, Ruihan Bao, Keiko Harimoto and Xu Sun'
+---

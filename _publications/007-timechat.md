@@ -7,5 +7,5 @@ venue: 'CVPR 2024'
 paperurl: 'https://arxiv.org/abs/2312.02051'
 projecturl: 'https://github.com/RenShuhuai-Andy/TimeChat'
 dataurl: 'https://huggingface.co/datasets/ShuhuaiRen/TimeIT'
-authors: 'Shuhuai Ren, Linli Yao, <b>Shicheng Li</b>, Xu Sun, Lu Hou'
+authors: 'Shuhuai Ren*, Linli Yao*, <b>Shicheng Li</b>, Xu Sun, Lu Hou'
 ---
